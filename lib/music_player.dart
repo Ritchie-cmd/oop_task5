@@ -4,9 +4,9 @@
 
 class MusicPlayer {
   final String model = 'MyMusic_Player';
-  final Speaker speaker;
-  final Playlist playlist;
-  final Battery battery;
+  final dynamic speaker;
+  final dynamic playlist;
+  final dynamic battery;
 
   // (Constructor Injection)
   MusicPlayer({
